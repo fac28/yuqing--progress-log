@@ -37,6 +37,12 @@ We could include something like: "As a humor enthusiast, I want to vote up or do
 Having this user story defined at the beginning of the project could have better guided our development and enhanced user-centric design. 
 
 ## Feedback
-> [**Course Facilitator name**]  
-> [*What went well*]  
-> [*Even better if*]
+### **Alphonso's feedback:**
+#### *What went well*
+Your examples of changing the look of buttons show a lot of focus on the user experience! The changes to your buttons are very commonly understood to mean that something is clickable and will easily guide users when interacting with the page. The emoji example is particularly creative and does the same job while creating a sense of 'identity' for your page. Top stuff!
+
+Your examle of a user story is actually very good, if maybe a little too descriptive. It's great if you start applying this thinking to projects from now, but you also have the opportunity to explore user stories in much more depth as we work through the *Tech for Better* program, where the definition process is much more guided.
+
+#### *Even better if*
+Keep the naming of your elements in mind. Particularly, consider the scalability of these naming practices. Right now you are working in 2-day sprints and projects don't grow to very large proportions, but they will very soon. When you have a very large codebase, the name 'button' or 'punch' won't help much and might actually get confusing.
+This may seem counterintuitive because we try to reduce noise in the code by being less verbose, but a more descriptive name can help you identify what you are working with later on, or if you are a new developer joining the project. For example, ```.punchline-button``` instead of ```.punch```
