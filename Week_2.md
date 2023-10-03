@@ -45,6 +45,8 @@ I didn't have a good understanding of the need to do this, and hardcoded db.js t
  ```
 
 ## Feedback
-> [**Course Facilitator name**]  
-> [*What went well*]  
-> [*Even better if*]
+> Beth
+
+> Well done for recognising the importance of environment variables for broader compatibility and deployment 🌵
+ 
+> Continue exploring SQL operations and consider looking into more advanced database constraints to prevent duplications at the database level. Some further reading: [sql constraints](https://www.w3schools.com/sql/sql_constraints.asp)
