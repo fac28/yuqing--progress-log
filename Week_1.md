@@ -46,3 +46,6 @@ Your examle of a user story is actually very good, if maybe a little too descrip
 #### *Even better if*
 Keep the naming of your elements in mind. Particularly, consider the scalability of these naming practices. Right now you are working in 2-day sprints and projects don't grow to very large proportions, but they will very soon. When you have a very large codebase, the name 'button' or 'punch' won't help much and might actually get confusing.
 This may seem counterintuitive because we try to reduce noise in the code by being less verbose, but a more descriptive name can help you identify what you are working with later on, or if you are a new developer joining the project. For example, ```.punchline-button``` instead of ```.punch```
+
+### response to feedback
+Thanks for your feedback! We used ```class=" button punch"``` for the punchline button, but the punch class doesn't really make sense on its own. 
