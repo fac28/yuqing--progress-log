@@ -50,3 +50,7 @@ I didn't have a good understanding of the need to do this, and hardcoded db.js t
 > Well done for recognising the importance of environment variables for broader compatibility and deployment 🌵
  
 > Continue exploring SQL operations and consider looking into more advanced database constraints to prevent duplications at the database level. Some further reading: [sql constraints](https://www.w3schools.com/sql/sql_constraints.asp)
+
+
+## Response to feedback
+Thank you for the link! I like SQL a lot and would like to explore it more.
