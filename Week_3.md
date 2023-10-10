@@ -52,6 +52,42 @@ function listEvents(user_id) {
 It will be nice to show the user more events, but only allow deletion by the current user. 
 
 ## Feedback
-> [**Course Facilitator name**]  
-> [*What went well*]  
-> [*Even better if*]
+### Alphonso's Feedback
+#### What Went Well
+Your example to the first question is great! Maybe think of adding a little bit detail on the testing you are running there as well.
+This example is something a few learners struggled with this week so it would be nice to use one of the chances for large group discussion (live code review or circle roles maybe) to share these learnings with the others.
+
+#### Even Better If
+The jump to allow specific actions, like deleting content, only to signed-in users is not very big from the logic you already have there.
+Here's a snippet from a project my cohort worked on:
+
+```javascript
+function entriesPage(entries, userId, userName) {
+  const entryList = entries
+    .map(
+      (entry) => /*html*/ `
+    <div class="entry-post stack-sm">
+      <div class="entry-post__header no-top-margin row space-between">
+        <p>
+          ${entry.posted_at}
+          <span class="entry-post__header${
+            userId === entry.user_id ? `--user-name` : `--anonymous`
+          }">
+            ${userId === entry.user_id ? userName : 'anonymous'}
+          </span>
+        </p>
+        <form action='/entries/delete/${entry.id}' method='post'>
+          <button class="entry-post__delete-button ${
+            userId === entry.user_id ? `row` : `hidden` // HERE you only get to see the delete button at all if you are signed in
+          }"> X </button>
+        </form>
+      </div>
+      <div class="entry-post__body">
+        ${entry.content}
+      </div>
+    </div>`
+    )
+    .join('');
+```
+
+The project is called [t33n-ang5t](https://github.com/fac27/t33n-ang5t), you can have a look through for a few more simple functionalities running on this logic.
