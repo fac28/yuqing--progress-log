@@ -14,7 +14,7 @@ This week I contributed to two stretch goal features: filtering by tags and addi
 
 We first went to the schema to add a new 'tags' column in out image_details table. It stores the tag(s) of each picture as a string (e.g. '' for no topic; 'travel, fantasy' for a picture tagged with two topics. Then we went on to create a new field in our form:
 
-```
+```html
  <fieldset>
   <legend>Please select one or more of the following tags</legend>
 
@@ -28,7 +28,7 @@ We first went to the schema to add a new 'tags' column in out image_details tabl
 
 When a user submits the form, we convert the array of tag(s) into a string, and inserted into the image_deatails table:
 
-```
+```javascript
 let tags = req.body.action;
 
 // this is to handle the case where no tag is selected
@@ -45,7 +45,7 @@ insertArtworkDetails(tagsString, other-stuff);
 
 We used css to hide and show images with certian tags. I really enjoyed writing the filter.js:
 
-```
+```javascript
 const imageContainers = document.querySelectorAll(".gallery-child");
 
 // check if the image contains __any__ of the selected tag
@@ -88,7 +88,7 @@ function hideImage (userFilter) {
 
 and in our css, we have:
 
-```
+```css
 [hidden='true'] {
   display: none;
 }
