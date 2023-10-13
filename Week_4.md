@@ -55,7 +55,6 @@ function isTagged (tags, userFilter) {
   });
 }
 
-// three cases here
 function hideImage (userFilter) {
   let allHidden = true;
 
