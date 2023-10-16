@@ -103,6 +103,9 @@ and in our css, we have:
 Our deployed app keeps on crashing during the code review because of memory issues. We were able to spot the problem by reading Sentry logs, but we don't really have a solution for it now. On the last day, I added a function to limit the size of images, which should be helping, but our deployed app is still crushing. Hopefully in coming weeks we'll learn a better way to store larger files like images.
 
 ## Feedback
-> [**Course Facilitator name**]  
-> [*What went well*]  
-> [*Even better if*]
+> Beth
+
+> The "filter by tags" feature is great! Love how you're handling edge cases like when no tags are selected 👏
+
+> I think to get around the memory issues you will need to store the images using external cloud solutions like AWS S3 or Firebase Storage. This will offload the memory and storage strain from your app.
+This might be of interest: [uploading-files-from-a-react-app-to-aws-s3](https://medium.com/@khelif96/uploading-files-from-a-react-app-to-aws-s3-the-right-way-541dd6be689)
