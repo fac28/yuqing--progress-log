@@ -46,6 +46,9 @@ useEffect(()=>{
 ```
 
 ## Feedback
-> [**Course Facilitator name**]  
-> [*What went well*]  
-> [*Even better if*]
+### Alphonso's feedback
+#### What Went Well
+The codebase for your project this week was really well compartmentalised. Great job keeping it lean and easily readable!
+
+#### Even Better If
+Implementing a reducer in the project was still a really impressive achievement, though spotting a simpler solution can be a super impactful skill for the velocity of a project.
