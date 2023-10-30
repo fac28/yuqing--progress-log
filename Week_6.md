@@ -44,6 +44,8 @@ export default function Navbar() {
 
 
 ## Feedback
-> [**Course Facilitator name**]  
-> [*What went well*]  
-> [*Even better if*]
+> Beth
+
+> You've demonstrated a good understanding of how to implement dynamic routes in Next.js 13, as well as the folder structure required to make it work. Your example of a Navbar component is well-structured, and it’s good that you’re thinking about how to organise your code for future projects.
+ 
+> To play around with creating API routes on Next, begin experimenting with creating API routes in a small, controlled environment. Here’s a [simple tutorial on API routes in Next.js to get you started](https://nextjs.org/docs/app/building-your-application/routing).
